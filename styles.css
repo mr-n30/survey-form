@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+  background: #323232;
+  color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 0.1em 4em 4em 4em;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.discount-message {
+  font-size: 1.5rem;
+}
+
+#survey-form {
+  margin: 0 auto;
+  text-align: center;
+  border: solid 2px black;
+  margin: 0 auto;
+  border-top: none;
+  box-shadow: 5px 5px 5px 5px black;
+  padding: 2em;
+  padding-top: 1em;
+  background: linear-gradient(10deg, #c823eb, #a22cbb, #000);
+  font-size: 1.01rem;
+}
+
+#survey-form, header {
+  width: 33em;
+}
+header {
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+#description {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+fieldset, legend {
+  margin: 0 auto;
+}
+
+fieldset, label[id*="-label"], input[type="number"] {
+  display: block;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+input[type="checkbox"] {
+  display: block;
+  margin: .5em auto;
+}
+
+input, textarea {
+  margin: 0 auto;
+}
+
+#dropdown {
+  display: block;
+  margin: 10px auto;
+}
+
+fieldset {
+  margin: 1em;
+}
+
+#name, #email, #number {
+  width: 25em;
+  margin: 1em auto;
+}
+
+textarea {
+  display: block;
+  width: 25rem;
+  height: 5em;
+  margin-bottom: 1em;
+}
+
+fieldset, button {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+fieldset {
+  padding: .1em;
+}
+
+#feedback {
+  margin-top: 15px;
+}
+
+p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+button {
+  border: solid 2px #000;
+  box-shadow: 5px 5px 5px 5px black;
+  color: #f7f7f7;
+  background: linear-gradient(90deg, #303233, #17191a);
+  width: 25em;
+  padding: 1em;
+  font-size: unset;
+  font-size: 1em;
+}
+
+button:active {
+  border: solid 2px #000;
+  box-shadow: 1px 1px 1px 1px black;
+  color: #f7f7f7;
+  background: linear-gradient(90deg, black, #7d7d7d);
+  width: 25em;
+  padding: 1.01em;
+  font-size: unset;
+  font-size: 1.01em;
+}
+
+select {
+  width: 25em;
+  border: solid 1px black;
+  background: #f7f7f7;
+}
+
+input,select {
+  border: solid 1px black;
+  font-size: 1em;
+}
+
+legend {
+  margin-bottom: 1em;
+}
+
+select {
+  text-align: center;
+}
+
+select, input {
+  padding: .5rem;
+}
+
+#start-trial, #weekly-emails {
+  display: unset;
+  display: inline-block;
+  width: 100%;
+  text-align: left
+}
+
+label[for=start-trial], label[for=weekly-emails] {
+  width: 100%;
+  display: block;
+}
