@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>                                                                                                                                                                                                                         [1/130]
+<html lang="en"> 
   <head>
     <title>Feedback</title>
     <meta name="viewport" content="width=100vw, initial-scale=1">
@@ -14,9 +14,9 @@
     <form action="#" id="survey-form">
       <fieldset class="user-details">
         <legend class="discount-message">Enter your name and email to receive 25% off your next order</legend>
-        <label id="name-label" for="name-label">Name: </label><input required id="name" type="text" placeholder="Full Name">
-        <label id="email-label" for="email-label">Email: </label><input required id="email" type="email" placeholder="Email">
-        <label id="number-label" for="number-label">Age:<input required id="number" type="number" min=18 max=150 placeholder="5"></label>
+        <label id="name-label" for="name-label"></label><input required id="name" type="text" placeholder="Full Name">
+        <label id="email-label" for="email-label"></label><input required id="email" type="email" placeholder="Email">
+        <label id="number-label" for="number-label"><input required id="number" type="number" min=18 max=150 placeholder="5"></label>
       </fieldset>
 
       <fieldset>
@@ -28,17 +28,24 @@
           <option name="would-vist" value="twitter">Twitter</option>
         </select>
       </fieldset>
-      <fieldset>
-        <legend>Would you like to sign up for an account using your details</legend>
-        <label for="signup-true">Yes <input id="signup-true" type="radio" name="signup" value="true" checked></label>
-        <label for="signup-false">No <input id="signup-false" type="radio" name="signup" value="false"></label>
-      </fieldset>
 
-      <fieldset class="weekly">
-        <legend>Optional</legend>
-        <label for="start-trial">Receive 30 day trial <input id="start-trial" type="checkbox" value="true"></label>
-        <label for="weekly-emails">Receive weekly emails </label><input id="weekly-emails" type="checkbox" value="true">
-      </fieldset>
+      <!--Ask user if they want to signup-->
+      <div >
+        <fieldset class="account-signup">
+          <legend>Would you like to sign up for an account using your details</legend>
+          <span class="account-signup-input"><label for="signup-true">Yes <input id="signup-true" class="ignore" type="radio" name="signup" value="true" checked></label></span>
+            <span class="account-signup-input"><label for="signup-false">No <input id="signup-false" class="ignore" type="radio" name="signup" value="false"></label></span>
+        </fieldset>
+      </div>
+
+
+      <div class="weekly">
+        <fieldset class="fixme">
+          <legend>Optional</legend>
+          <span class="optional"><label for="start-trial">Receive 30 day trial </label><input id="start-trial" type="checkbox" value="true" class="ignore"></span>
+            <span class="optional"><label for="weekly-emails">Receive weekly emails </label><input id="weekly-emails" type="checkbox" value="true" class="ignore"></span>
+        </fieldset>
+      </div>
       <fieldset class="feedback">
         <legend><label for="feedback">Additional Feedback</label></legend><textarea id="feedback" placeholder="We enjoyed it!"></textarea>
       </fieldset>
